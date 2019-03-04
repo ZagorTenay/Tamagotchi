@@ -25,6 +25,8 @@ Game Playing Rules
 		Carer can only see the parameters of the child in transfer or check session and needs to decide which action to select. A transfer session can be terminated at any time (after min. 2 turns) by the player or it ends when the service is completed.
 		Checking child's parameters session takes min. 2 turns of the carer. 
 		The only way to learn if a child is missing is the check or transfer session.
+		
+	![Screenshot2](https://github.com/ZagorTenay/Tamagotchi/blob/master/example.png)
 
 6. Happiness: Each child has a happiness value. If a supply is within the limits of 25 and 75, child's happiness increases by the rate of supply's happiness rate. If a supply is greater than 75, child's happiness value decreases by the rate of (2 * supply's happiness rate). If a supply is less than 25, child's happiness value decreases by the rate of (4 * supply's happiness rate). Supply and happiness values can take negative or above 100 values. 
 
@@ -41,3 +43,6 @@ Game Playing Rules
 10. Score: At the end of the day, score of the day is added to the player's total score.
 
      	score of the day = number of children * ("end of the day average happiness" - 50)  
+	
+	![Screenshot](https://github.com/ZagorTenay/Tamagotchi/blob/master/game_sample.png)
+
